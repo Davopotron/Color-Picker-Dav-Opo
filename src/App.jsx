@@ -14,8 +14,8 @@ const Picker = (props) => {
     </div>
     <div id="colors-list">
       <Color color="yellow" setSelectedColor={setSelectedColor} />
-      <Color color="green" setSelectedColor={setSelectedColor} />
-      <Color color="black" setSelectedColor={setSelectedColor} />
+      <Color color="red" setSelectedColor={setSelectedColor} />
+      <Color color="blue" setSelectedColor={setSelectedColor} />
     </div>
   </>
 }
